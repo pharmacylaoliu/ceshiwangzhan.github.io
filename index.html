@@ -6,6 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
 	<title>测试网站</title>
 	<style>
+		.content {
+			border: 1px solid rgb(163, 193, 226);
+			border-radius: 3%;
+		}
+
 		.biaoti {
 			font-size: 30px;
 			color: rgb(58, 161, 202);
@@ -15,14 +20,21 @@
 
 		.xiaobiaoti {
 			text-align: center;
-			font-size: 20px;
+			font-size: 25px;
 			color: rgb(166, 65, 186);
+			font-family: simhei;
+		}
+
+		.teshu {
+			font-size: small;
+			text-align: right;
+			color: rgb(179, 218, 225);
 		}
 
 		.zhengwen {
-			margin-left: 5%;
-			margin-right: 5%;
-			margin-top: 5%;
+			margin-left: 2%;
+			margin-right: 2%;
+			margin-top: 3%;
 			width: auto;
 			text-indent: 30px;
 			line-height: 200%;
@@ -30,8 +42,13 @@
 
 		.zhengwen p {
 			text-align: justify;
+			font-family: microsoft yahei;
 		}
 
+		span {
+			color: rgb(39, 14, 179);
+			font-weight: 700;
+		}
 
 		@media screen and (max-width:768px) {
 			.shipin {
@@ -47,6 +64,7 @@
 				width: 100%;
 				height: 100%;
 				position: absolute;
+				margin: 1%;
 			}
 		}
 
@@ -58,42 +76,93 @@
 			}
 
 			.shipin video {
-				width: 50%;
-				padding: 0%;
+				width: 45%;
+				margin: 3%;
 			}
 		}
 	</style>
 </head>
 
 <body>
+
 	<div class="biaoti">
 		测试网站
 		<hr>
 	</div>
-	<div class="xiaobiaoti">
-		<span>
-			糖皮质激素用药科普
-		</span>
-	</div>
+	<div class="content">
+		<div class="xiaobiaoti">
+			<p>
+				<b>·糖皮质激素用药科普·</b>
+			</p>
+			<p class="teshu">
+				XXX.ceshiwangzhan&emsp;&emsp;
+			</p>
+		</div>
 
-	<div class="zhengwen">
+		<div class="zhengwen">
 
-		<p>
-			在我们日常的工作生活中会遇到很多患者，他们往往一提到激素就不愿意使用，
-			这或许是由于这类药物诸多广为人知的不良反应让大家对它产生了根深蒂固的负面印象。
-			如今，随着这种印象的日益加深，人们对激素的误解也逐渐的加大，那么今天就让我们来一起了解一下这让人“望而却步”的激素吧。
-		</p>
+			<p>
+				在我们日常的工作生活中会遇到很多患者，他们往往一提到激素就不愿意使用，
+				这或许是由于这类药物诸多广为人知的不良反应让大家对它产生了根深蒂固的负面印象。
+				如今，随着这种印象的日益加深，人们对激素的误解也逐渐的加大，那么今天就让我们来一起了解一下这让人“望而却步”的激素吧。
+			</p>
+		</div>
+		<div class="shipin">
+			<video controls="controls" poster="" webkit-playsinline="true" playsinline="true">
+				<source src="激素.mp4" type="video/mp4">
+				<source src="激素.ogg" type="video/ogg">
+				<source src="激素.webm" type="video/webm">
+			</video>
+		</div>
+		<br>
+		<div class="zhengwen">
+			<span>
+				一、什么是激素？
+			</span>
+			<p>
+				“激素”是我们体内的内分泌腺或内分泌细胞所产生的诸多活性物质的统称，也称为“荷尔蒙”，
+				它对机体的生长发育、生殖、应激等活动起到了至关重要的调节作用，缺少了它们机体就不能够正常工作了。
+			</p>
+			<p>
+				“激素”分为许多种类型，包括甲状腺素、甲状旁腺激素、肾上腺素、生长激素、性激素等等，当然还有最被我们所熟悉的胰岛素，
+				也是“激素”大家庭中的一份子。其实我们患者平时“害怕”的大多都是糖皮质激素，这是一种作用极为广泛的激素。
+			</p>
+			<span>
+				二、什么是糖皮质激素？
+			</span>
+			<p>
+				正常人体内的糖皮质激素主要为皮质醇，也就是我们药物中的氢化可的松，它由肾上腺皮质分泌，参与体内的糖、脂、蛋白质以及水盐代谢，
+				同时，能够刺激骨髓的造血功能以及维持正常血压。当机体受到感染、饥饿、手术、疼痛等多种有害因素时，它还可以帮助我们渡过难关，
+				是名副其实的多面手。
+			</p>
+			<p>
+				除氢化可的松外，药物中的糖皮质激素也多以“XX松”、“XX龙”或“XX松龙”来命名，如泼尼松（龙）、甲泼尼龙、糠酸莫米松、卤米松、地塞米松。当然，也有一些药物没有按照这种方式命名，像是曲安奈德、布地奈德等。这里要对我们的患者强调一下，上述药物虽属同类，
+				但适用情况、作用持续时间与强度、对物质代谢的影响均大不相同，所以相互之间是不可以完全替代的，所以不应自行更换药物，一定要遵从专业医师的指导。
+			</p>
+			<span>
+				三、糖皮质激素有什么副作用？
+			</span>
+			<p>
+				刚才我们提到了许多糖皮质激素的好处，但它能够发挥出这些功效的前提一定是“使用得当”。
+				我们首先要明确一个关于“剂量”的概念，其实对于皮质醇绝对缺乏的患者，所需要氢化可的松的长期维持剂量一般在20-30mg/天，
+				以常规每片20mg计算，为1片到1片半，也就是说，很小的药物剂量就可以满足我们机体的正常所需。
+			</p>
+			<p>
+				在多种疾病情况下，如危重病人的抢救、甲状腺相关眼病等，我们会用到比较大的治疗剂量，但如果超疗程、长期、大剂量服药，
+				可能引起多种不良反应，其严重程度与用药剂量以及时间成正比。主要包括向心性肥胖、满月脸、水牛背、皮肤紫纹、骨质疏松、
+				胃肠道溃疡，也会诱发或加重感染，对于儿童来讲，长期应用还会影响生长发育。
+			</p>
+			<p>
+				同时，我们患者也要注意在激素的使用过程中不要自行停止服药，避免药物漏服发生，当突然停药可能出现精神萎靡、乏力、食欲减退、发热、恶心、呕吐等肾上腺皮质功能减退症状，严重者出现肾上腺危象，需及时抢救。
+				还可能出现原患疾病复发或加重的情况，应恢复治疗并常需要加大剂量，待缓解后再缓慢减量。
+			</p>
+			<p>
+				总之，糖皮质激素是一柄双刃剑，我们既不能过度依赖激素，也不能因为它的副作用而完全抵制激素的使用，
+				一定要在医师、药师的指导下合理使用才可以使其发挥出预期的效果，同时，也能够降低不良反应风险。
+			</p>
+		</div>
 	</div>
-	<div class="shipin">
-		<video controls="controls" poster="" webkit-playsinline="true" playsinline="true">
-			<source src="激素.mp4" type="video/mp4">
-			<source src="激素.ogg" type="video/ogg">
-			<source src="激素.webm" type="video/webm">
-		</video>
-	</div>
-	<div>
-
-	</div>
+	<br>
 </body>
 
 </html>
